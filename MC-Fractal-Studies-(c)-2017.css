@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/Untitled.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/Untitled.png');
 }
 
 .u-section-1 .u-sheet-1 {
@@ -23,8 +23,7 @@
 .u-section-1 .u-text-2 {
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
   font-size: 1.5rem;
-  width: 826px;
-  margin: 53px auto 60px;
+  margin: 51px 36px 60px;
 }
 
 @media (max-width: 1199px) {
@@ -110,7 +109,7 @@
     margin-top: 35px;
   }
 } .u-section-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("images/EURUSDM5.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/EURUSDM5.png');
 }
 
 .u-section-2 .u-sheet-1 {
@@ -210,6 +209,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-2 {
+    background-position: 50% 50%;
+  }
+
   .u-section-2 .u-accordion-1 {
     margin-right: initial;
     margin-left: initial;
